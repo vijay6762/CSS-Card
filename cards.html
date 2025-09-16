@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: rgb(10, 47, 127);
+            width:100vw;
+            height:100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            min-height: 100%;
+        }
+        .card{
+            width: 750px;
+            height: 350px;
+            background-color: rgb(126, 7, 106);
+            display: flex;
+            flex-direction: row;
+            
+            
+        }
+        #rightbox img{
+            width: 375px;
+            height: 350px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-content: space-between;
+        }
+        #leftbox{
+            margin: 20px ;
+            color: white;
+            
+        }
+        #classbox{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        #leftbox p{
+            font-style: normal;
+            font-size: smaller;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div id="leftbox">
+                <br>
+                <br>
+                <h1>Get insights that help your business grow</h1>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi iusto similique natus, reprehenderit optio tempora pariatur libero ipsam, 
+                    officia quas consectetur deleniti debitis?</p>
+                    <br>
+                    <br>
+
+                    <div id="classbox">
+                        <div>
+                            <h2>10K+</h2>
+                            <p>Comments</p>
+                        </div>
+                        <div>
+                            <h2>214</h2>
+                            <p>Paid Users</p>
+                        </div>
+                        <div>
+                            <h2>12M+</h2>
+                            <p>Views</p>
+                        </div>
+
+                    </div>
+            </div>
+            <div id="rightbox">
+                <img src="Owl.webp" alt="owl">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
